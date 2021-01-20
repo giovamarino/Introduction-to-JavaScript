@@ -18,6 +18,13 @@ Do the following:
    HINT: no function required
 */
 
+const votingAge = 18
+  if (votingAge > 17) {
+    console.log(true)
+  }
+  else {
+    console.log(false)
+  }
 
 
 /*
@@ -31,7 +38,8 @@ Do the following:
    HINT: no function required
 */
 
-
+const firstName = 'John';
+let lastName = 'Smith';
 
 
 
@@ -58,11 +66,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(num1, num2) {
+    return (num1 * num2);
   }
 
-
+multiply(2,3)
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -74,10 +82,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(){
+  const age =  
 }
 
+dogYears(1);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
